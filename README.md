@@ -29,21 +29,39 @@ puts("hello") // hello
 // 2
 // 3
 // 4
+```
 
-// Array.times
-["Hello", "Swift", "Ruby"].times { (s) in
-    puts(s)
-}
+## String
 
+```swift
+// count
+["a"].count           // 1
+["a","b"].size        // 2
+["a","b","c"].length  // 3
+
+// append
+"hello " << "world"   // hello world
+
+// *
+"a " * 3              // a a a
+```
+
+## Array
+
+```swift
 // Hello
 // Swift
 // Ruby
+
+// *n
+["a"] * 3             // a a a
+["A", "B"] + ["C"]    // A B C
 ```
 
-## each
+## Dictionary
 
 ```swift
-// Dictionary each
+// each
 _ = ["A": "Hello A", "B": "Hello B"].each { (k, v) in
     puts(k)
     puts(v)
