@@ -13,4 +13,11 @@ extension Array {
             block(item)
         }
     }
+    // Naming
+    public var size: Int {
+        return count
+    }
+    public var length: Int {
+        return count
+    }
 }
