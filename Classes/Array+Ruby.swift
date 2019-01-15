@@ -13,6 +13,16 @@ extension Array {
             block(item)
         }
     }
+    
+    // *n
+    static func *(left: [Element], n: Int) -> [Element] {
+        var sum = [Element]()
+        for _ in 0..<n {
+            sum += left
+        }
+        return sum
+    }
+    
     // Naming
     public var size: Int {
         return count
