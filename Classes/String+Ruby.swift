@@ -30,4 +30,8 @@ extension String {
     func capitalize() -> String {
         return capitalized
     }
+    
+    public var reverse: String {
+        return String(reversed())
+    }
 }
