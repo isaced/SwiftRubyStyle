@@ -19,4 +19,8 @@ extension Int {
             block()
         }
     }
+    
+    func to_s() -> String {
+        return String(self)
+    }
 }

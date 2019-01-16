@@ -27,11 +27,19 @@ extension String {
     }
     
     // naming
-    func capitalize() -> String {
+    var capitalize: String {
         return capitalized
     }
     
-    public var reverse: String {
+    var reverse: String {
         return String(reversed())
+    }
+    
+    var upcase: String {
+        return uppercased()
+    }
+    
+    var downcase: String {
+        return lowercased()
     }
 }
